@@ -6,8 +6,8 @@ CDKGuardian is a simple Static Application Security Testing (SAST) tool designed
 
 Currently, CDKGuardian checks for the following:
 
-- If an EC2 instance is created.
-- If there's an open port configured.
+- SSH port open to the world leading to password brute-forcing
+- EBS disk not encrypted.
 
 ## Usage
 
