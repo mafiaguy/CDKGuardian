@@ -15,3 +15,11 @@ To use CDKGuardian, simply run the Python script and provide the path to the dir
 
 ```bash
 python cdk_guardian.py /path/to/your/cdk/code
+```
+if you want to bypass this scan from a particular place you can add
+```bash
+encrypted: false,//bypass_security_check
+```
+
+
+
