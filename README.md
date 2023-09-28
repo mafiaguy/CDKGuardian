@@ -1,6 +1,6 @@
 # CDKGuardian
 
-CDKGuardian is a simple Static Application Security Testing (SAST) tool designed to scan AWS Cloud Development Kit (CDK) code for potential misconfigurations. 
+CDKGuardian is a simple Static Application Security Testing (SAST) tool designed to scan AWS Cloud Development Kit (CDK) code for potential misconfigurations.
 
 ## Features
 
@@ -43,6 +43,3 @@ cdk_guardian --check=ebs
 ```bash
 encrypted: false,//bypass_security_check
 ```
-
-
-
